@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+<div>
+  This Element Is Just For Testing
+</div>
+</body>
+</html>
+.......................................................................................
+.......................................................................................
+div{
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #eee;
+  width: 300px;
+  box-shadow:  10px 10px 0 rgba(255, 0, 157, 0.238) inset;
+}

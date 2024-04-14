@@ -1,0 +1,36 @@
+package factorial.pkgfor.a.number;
+import java.util.Scanner;
+/**
+ *
+ * @author ASUS
+ */
+
+//This program calculate the factorial value of any positive number
+
+public class Factorial {
+
+    /**
+     */
+    public static void main(String[] args) {
+ int number;
+ int fact=1;
+// Float dodo=64.7808f;
+        System.out.println("Enter A Number");
+        Scanner f = new Scanner(System.in);
+        number = f.nextInt();
+        if(number <0)
+            System.out.println("Not Avaliable");
+        if(number==0)
+            System.out.println("Factorial = 1");
+        
+        else {
+            for( int i =1  ; i <= number ; i++)
+            fact = fact * i ;
+            System.out.println("Factorial Of " + number + " = " + fact);
+          //  System.out.println(Float.MAX_VALUE);
+            
+        }
+       
+    }
+    
+}

@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+cout<<"22222222222222222222222";
+return 0;
+}
+............................................................................................................................
+package friendnumber;
+
+import java.util.Scanner;
+public class Friend {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int x,y;
+        int d1 = 0, d2 = 0 ;
+        System.out.println("Enter The First Number");
+        Scanner one  = new Scanner(System.in);
+        x = one.nextInt();
+        System.out.println("Enter The Second Number");
+        Scanner two  = new Scanner(System.in);
+        y = two.nextInt(); 
+        for(int i = 1 ;i< x ; i++ )
+            if ( x % i ==0 )
+                d1++;
+        for(int j=1 ;j< y ; j++)
+            if( y % j ==0 )
+                d2++;
+        if (d1 == y && d2 == x )
+            System.out.println("Numbers Are Friends");
+        else 
+            System.out.println("Numbers Are Not Friends");
+    }
+    
+}
